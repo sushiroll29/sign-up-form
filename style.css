@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.image {
+    background-image: url(./copenhagen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 100vh;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.form-content {
+    width: 60vw;
+    height: 100%;
+}
