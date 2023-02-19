@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Manjari', sans-serif;
 }
 
 .content {
@@ -13,23 +14,59 @@
     margin: 0 auto;
 }
 
-.image {
-    background-image: url(./copenhagen.jpg);
+.left {
+    background-image: url(./japan.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40vw;
+    width: 35vw;
     height: 100vh;
+    position: relative;
 }
 
-.logo {
-    background-color: rgba(0, 0, 0, 0.7);
+.logo-bar {
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     width: 100%;
     margin: 0;
+    position: absolute;
+    top: 25vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
-.form-content {
-    width: 60vw;
+.logo-bar h2 {
+    font-size: 4.5rem;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.logo-bar .logo-icon {
+    width: 5em;
+    height: 5em;
+}
+
+.content .right{
+    width: 65vw;
     height: 100%;
+    padding: 3rem 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right .intro-text p {
+    padding: 0 10rem 0 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    align-self:flex-start;
+}
+
+.right .intro-text p:nth-child(2) {
+    margin-bottom: 20px;
 }
