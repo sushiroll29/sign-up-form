@@ -1,8 +1,13 @@
+:root {
+    --background-color: #ececec;
+    --accent-color: #FFFFFF;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .content {
@@ -58,6 +63,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
+    background-color: var(--background-color);
 }
 
 .right .intro-text p {
@@ -70,3 +77,51 @@
 .right .intro-text p:nth-child(2) {
     margin-bottom: 20px;
 }
+
+/* .form-content{
+    
+} */
+
+form{
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    padding: 20px 15rem 20px 2rem;
+}
+
+form ul {
+    width: 100%;
+}
+
+form p {
+    margin-bottom: 20px;
+}
+
+form ul li {
+    display: inline-block;
+    width: 49%;
+}
+
+label, input{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+}
+
+form input[type="text"], 
+form input[type="email"],
+form input[type="number"],
+form input[type="password"]
+    {
+        background-color: #FFFFFF;
+        border: 1px solid #D6D9DC;
+        border-radius: 3px;
+        padding: 7px;
+        font-size: 13px;
+        width: 80%;
+        margin-bottom: 15px;
+    }
