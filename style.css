@@ -1,6 +1,7 @@
 :root {
     --background-color: #ececec;
     --accent-color: #821b27;
+    --form-left-margin: 2rem;
 }
 
 * {
@@ -71,7 +72,7 @@
 }
 
 .right .intro-text p {
-    padding: 0 10rem 0 2rem;
+    padding: 0 10rem 0 var(--form-left-margin);
     font-size: 1.3rem;
     font-weight: 500;
     align-self:flex-start;
@@ -86,13 +87,13 @@
 form{
     background-color: white;
     box-shadow: 2px 2px 10px rgb(167, 167, 167);
-    padding: 20px 15rem 20px 2rem;
+    padding: 20px 15rem 20px var(--form-left-margin);
 
     position: relative;
 }
 
 .account {
-    margin-left: 2rem;
+    margin-left: var(--form-left-margin);
     font-size: 14px;
 }
 
