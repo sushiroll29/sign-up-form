@@ -27,6 +27,9 @@
     width: 35vw;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
 .logo-bar {
@@ -160,4 +163,18 @@ form input:focus, form input:active{
 .password-match{
     font-size: 11px;
     color: #c72132;
+}
+
+.photo-credit span{
+    color: #ffffff;
+    font-size: 11px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+a.photo-credit{
+    text-decoration: underline;
+    color: #ffffff;
 }
