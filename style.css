@@ -152,11 +152,12 @@ form input
     }
 
 form input:focus, form input:active{
-    outline: 2px solid #489aeb;
+    box-shadow: 0 0 0 2pt #489aeb;
     border-radius: 3px;
     box-shadow: 1px 1px 10px rgb(167, 167, 167);
 }
 
-form.submitted input:invalid{
-    outline: 2px solid red;
+.password-match{
+    font-size: 11px;
+    color: red;
 }
