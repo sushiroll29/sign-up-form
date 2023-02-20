@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manjari&family=Poiret+One&family=Nunito&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="content">
@@ -27,7 +29,7 @@
             <p>You <em>know</em> you want to.</p>
             </div>
             <div class="form-content"></div>
-                <form action="" id="form">
+                <form action="" id="form" onsubmit="return checkPassword();">
                     <p>Let's do this!</p>
                     <ul>
                         <li>
